@@ -6,11 +6,33 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Sito molto serio.</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Marco Onnis">
+        <meta name="keywords" content="memoria massa, usb, hdd, shop, login">
     </head>
     <body>
-        <div>TODO write content</div>
+        <header>
+        <h1>Il nostro sito di compra-vendite!</h1>
+        </header>
+        <hr />
+        <nav> 
+            <a href="descrizione.html">Descrizione</a>
+            <a href="cliente.html">Cliente</a>
+            <a href="venditore.html">Venditore</a>
+        </nav>
+        <hr />
+        <h2>Accesso Utenti</h2>
+        <form action="login.asp" method="get">
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" value="User" />
+            <br />
+            <label for="psw">Password:</label>
+            <input type="password" name="psw" id="psw" value="password" />
+            <br />
+            <button type="submit">Log In!</button>
+        </form>
+           
     </body>
 </html>
