@@ -16,30 +16,30 @@ and open the template in the editor.
         <header>
         <h1>Il nostro sito di compra-vendite!</h1>
         </header>
-        <hr />
+        
         <nav> 
             <a href="descrizione.html"> Descrizione </a>
             <a href="login.html"> Login </a>
         </nav>
-        <hr />
+        
         <h2>Vendita di un nuovo oggetto</h2>
         <p>Inserire le informazioni richieste nei form per poter inserire l' oggetto nel nostro shop.</p>
-        <form action="login.asp" method="get">
+        <form method="get">
             <label for="oggetto">Nome oggetto:</label>
             <input type="text" name="oggetto" id="oggetto" />
-            <br />
+            
             <label for="img">Url immagine:</label>
             <input type="url" name="img" id="img" />
-            <br />
+          
             <label for="descrizione">Descrizione:</label>
             <textarea rows="5" cols="20" id="descrizione"></textarea>
-            <br />
+           
             <label for="disponibili">Quantità disponibile:</label>
             <input type="number" name="disponibili" id="disponibili" />
-            <br />
+            
             <label for="prezzo">Prezzo (Euro):</label>
             <input type="number" name="prezzo" id="prezzo" />
-            <br />
+            
             <button type="submit">Metti in vendita!</button>
         </form>
     </body>
