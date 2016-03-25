@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Sito molto serio.</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Marco Onnis">
+        <meta name="keywords" content="memoria massa, usb, hdd, shop">
+    </head>
+    <body>
+        <header>
+        <h1>Il nostro sito di compra-vendite!</h1>
+        </header>
+         <!--Sezione navigazione-->
+        <nav class="esterni"> 
+            <a href="descrizione.html"> Descrizione </a>
+            <a href="login.html"> Login </a>
+        </nav>
+        
+        <h2>Vendita di un nuovo oggetto</h2>
+        <p>Inserire le informazioni richieste nei form per poter inserire l' oggetto nel nostro shop.</p>
+         <!--Form per mettere in vendita.-->
+        <form method="get">
+            <label for="oggetto">Nome oggetto:</label>
+            <input type="text" name="oggetto" id="oggetto" />
+            
+            <label for="img">Url immagine:</label>
+            <input type="url" name="img" id="img" />
+          
+            <label for="descrizione">Descrizione:</label>
+            <textarea rows="5" cols="20" id="descrizione"></textarea>
+           
+            <label for="disponibili">Quantità disponibile:</label>
+            <input type="number" name="disponibili" id="disponibili" />
+            
+            <label for="prezzo">Prezzo (Euro):</label>
+            <input type="number" name="prezzo" id="prezzo" />
+            
+            <button type="submit">Metti in vendita!</button>
+        </form>
+    </body>
+</html>
