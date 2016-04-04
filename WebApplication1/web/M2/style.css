@@ -1,28 +1,284 @@
 body {
-    background-color: aliceblue;
-    font-family: sans-serif;
-    color: black;
-}
-nav.esterni {
-    color: darkblue;
-    font-size: x-large;
+    background-color: khaki;
+    margin: 0px;
+    font-family: sans-serif, Georgia, Arial; 
+    font-size: 15px;
+    color: #253f3f;
 }
 
-nav.interni {
-    font-size: smaller;
+header {
+    background-color: #F8F8F8 ;
+    margin: 0.5% 0.5% 0px 0.5%;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 2px solid cadetblue;
+    border-bottom: none;
 }
 
 h1{
-    color: black;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+#esterni {
+    background-color: cadetblue;
+    border-top: 2px solid darkslategray;
+    border-bottom: 2px solid darkslategray;
+    text-align: center;
+    padding: 0.35%;
+    margin-bottom: 0px;
+    
+}
+
+#esterni a{
+    font-size: 150%;
+    color: #253f3f;
+    font-weight: bold;
+    padding: 0.42%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    text-align: justify;
+}
+
+#esterni a:hover {
+    background-color: darkslategray;
+    padding-top: 0.42%;
+    color: #F8F8F8 ;
+}
+
+.interni {
+    background-color: #F8F8F8 ;
+    margin: 0px 0.5% 0.5% 0.5%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 2px solid cadetblue;
+    border-top: none;
+    
+}
+
+.interni ul {
+    list-style-type: none;
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+  
+}
+
+.interni ul li{
+    display: inline;
+   
+}
+
+.interni a{
+    padding: 5px 12px 5px 12px;
+    color: #253f3f;
+    font-weight: bold;
+    
+}
+
+.interni a:hover {
+    background-image: url(img/internal.png);
+    color: #F8F8F8 ;
+    padding: 7px 10px 5px 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 2px solid darkslategray;
+    border-top: none;
+    
+}
+
+div{
+    background-color: #F8F8F8 ;
+    margin: 0.5% 0.5% 0.5% 0.5%;
+    padding: 0.5%;
+    border-radius: 10px;
+    border: 2px solid cadetblue;
+}
+
+div h3, p{
+    padding: 0.5%;
+    text-align: justify;
+}
+
+form{
+    display: inline-block;
+    border: none;
+}
+
+input, textarea {
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
+}
+
+
+
+input:focus, textarea:focus {
+    border: 2px solid cadetblue;
+    border-radius: 2px;
+    
+}
+
+input, textarea {
+    
+    min-width: 190px;
+}
+
+textarea {
+    margin-left: 1px;
+}
+
+.bottone {
+    background-color: cadetblue;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+    padding: 0.7%;
+    padding-left: 1%;
+    padding-right: 1%;
     text-align: center;
     font-weight: bold;
+    border-radius: 5px;
+    color: darkslategray;    
+    display: block;
 }
 
-h2{
-    color: darkred;
+.bottone:hover {
+    background-color: darkslategray;
+    color: #F8F8F8 ;
+    cursor: pointer;
+}
+
+.login{
+    text-align: center;
+    }
+
+.login p{
+    text-align: center;  
+    }
+
+div.riga{
+    display: table-row;
+      
+}
+
+.riga label {
+    display: table-cell;
+    padding: 0.5%;
+    text-align: left
+    
+}
+
+
+.riga input {
+    
+    display: table-cell;
+    padding: 0.5%;
+    margin-left: 0.5%;
+    
+}
+
+#tabella {
+    text-align: center;
+}
+
+table {
+    display: inline;
+}
+
+tr {
+    
+    background-color: #F0F0F0;
+    border-radius: 10px;
+    
+}
+
+.pari {
+    background-color: #E8E8E8;
+}
+
+th {
+    border-radius: 10px;
     font-weight: bold;
+    padding-left: 0.3%;
+    padding-right: 0.3%
 }
 
-h3{
-    color: darkred;
+td {
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+.img {
+    min-width: 100px;
+}
+
+
+
+@media (min-width: 481px) {
+    
+    body {
+        font-size: 78%;
+    }
+    
+}
+
+@media (min-width: 1024px) {
+    
+    body {
+        font-size: 100%;
+    }
+    
+    div.h3{
+        display: inline;
+        text-align: center;
+        margin-right: 0.25%;
+        margin-bottom: 0.5%;
+        width: 47.5%;
+        float: left;
+        min-height: 13em;
+       
+    }
+
+    #dx {
+        float: right;
+        max-width: 48.30%;
+        margin-left: 0.25%;
+        margin-right: 0.5%;
+    
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 70%;
+    }
+    
+    .interni {
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+    }
+    .interni ul li{
+        display: block;
+        
+        padding-bottom: 0.7%;
+        padding-top: 0.7%;
+    }
+    
+    .interni a:hover {
+        padding: 0.5% 50px 0.5% 50px;
+        border-radius: 10px;
+        border: 2px solid darkslategray;
+        
+    }
 }

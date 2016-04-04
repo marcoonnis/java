@@ -18,22 +18,27 @@ and open the template in the editor.
         <h1>Il nostro sito di compra-vendite!</h1>
         </header>
          <!--Sezione navigazione-->
-        <nav class="esterni"> 
+        <nav id="esterni"> 
             <a href="descrizione.html">Descrizione</a>
             <a href="cliente.html">Cliente</a>
             <a href="venditore.html">Venditore</a>
         </nav>
         <!--Form di accesso.-->
+        <div class="login">
         <h2>Accesso Utenti</h2>
-        <form method="get">
+        <form class="login" method="get">
+            <div class="riga">
             <label for="username">Username:</label>
             <input type="text" name="username" id="username" value="User" />
-            
+            </div>
+            <div class="riga">
             <label for="psw">Password:</label>
             <input type="password" name="psw" id="psw" value="password" />
+            </div>
             
-            <button type="submit">Log In!</button>
+            <a class="bottone">Log In!</a>
+            
         </form>
-           
+        </div>   
     </body>
 </html>

@@ -18,71 +18,89 @@ and open the template in the editor.
         <h1>Il nostro sito di compra-vendite!</h1>
         </header>
          <!--Sezione navigazione-->
-        <nav class="esterni"> 
+        <nav id="esterni"> 
             <a href="descrizione.html">Descrizione</a>
             <a href="login.html">Login</a>
         </nav>
+        
+        
          <!--Tabella oggetti in vendita.-->
+        <div id="tabella">
         <h2>Oggetti in vendita.</h2>
         <table>
              <!--Titolo articoli-->
             <tr>
                 <th>Floppy Disk1</th>
-                <th>CD-ROM</th>
-                <th>HDD 1TB</th>
-                <th>Pendrive</th>
-                <th>Floppy Disk2</th>
-            </tr>
-            <tr>
-                 <!--Immagini articoli-->
-                <td><img title="floppy" alt="foto di un floppy blu" 
+                <td class="img"><img title="floppy" alt="foto di un floppy blu" 
                          src="img/8-inch-floppy.jpg"
                          width="100" height="100"></td>
-                <td><img title="cdrom" alt="foto di un pacco di cd" 
-                         src="img/verbatim_vinyl_cd.jpg"
-                         width="100" height="100"></td>
-                <td><img title="hdd" alt="foto di un hard disk" 
-                         src="img/Western-Digital-500GB.jpg"
-                         width="100" height="100"></td>
-                <td><img title="pendrive" alt="foto di una pennina usb" 
-                         src="img/pen_drive_usb_virus.gif"
-                         width="100" height="100"></td>
-                <td><img title="floppy2" alt="foto di un floppy rosa" 
-                         src="img/verbatim_vinyl_cd.jpg"
-                         width="100" height="100"></td>
+                <td>Floppy GIGANTE, per chi non si accontenta ;)</td>
+                <td>Disponibili: 2</td>
+                <td>10 Euro</td>
+                
+                
+                <td><a class="bottone" href="cliente.html">Aggiungi al carrello</a></td>
             </tr>
+            
+            <tr class="pari">
+                 <!--Immagini articoli-->
+                <th>CD-ROM</th>
+                
+                <td class="img"><img title="cdrom" alt="foto di un pacco di cd" 
+                         src="img/verbatim_vinyl_cd.jpg"
+                         width="100" height="100"></td>
+                <td>Confezione contenente 16 CD-ROM vergini.</td>
+                <td>Disponibili: 200</td>
+                <td>7 Euro</td>
+                
+                
+                <td><a class="bottone" href="cliente.html">Aggiungi al carrello</a></td>
+            </tr>
+            
             <tr>
                  <!--Descrizione prodotti-->
-                <td>Floppy GIGANTE, per chi non si accontenta ;)</td>
-                <td>Confezione contenente 16 CD-ROM vergini.</td>
+                <th>HDD 1TB</th>
+                <td class="img"><img title="hdd" alt="foto di un hard disk" 
+                         src="img/Western-Digital-500GB.jpg"
+                         width="100" height="100"></td>
+                
+                
                 <td>Un Hard disk esterno da 1 TeraByte, SATA3. </td>
-                <td>Pennina USB da 32 GB conforme alle leggi dello stato cinese. </td>
-                <td>Floppy Rosa: rimanenze dall' 8/03, ora in SALDO!</td>
-            </tr>
-            <tr>
-                 <!--Disponibilità quantità prodotti-->
-                <td>Disponibili: 2</td>
-                <td>Disponibili: 200</td>
+                
+                
                 <td>Disponibili: 50</td>
-                <td>Disponibili: 100</td>
-                <td>Disponibili: 15</td>
+                <td>40 Euro</td>
+                
+                <td><a class="bottone" href="cliente.html">Aggiungi al carrello</a></td>
             </tr>
+            
+            <tr class="pari">
+                 <!--Disponibilità quantità prodotti-->
+                <th>Pendrive</th>
+                <td class="img"><img title="pendrive" alt="foto di una pennina usb" 
+                         src="img/pen_drive_usb_virus.gif"
+                         width="100" height="100"></td>
+                <td>Pennina USB da 32 GB conforme alle leggi dello stato cinese. </td>
+                
+                
+                <td>Disponibili: 100</td>
+                <td>20 Euro</td>
+                <td><a class="bottone" href="cliente.html">Aggiungi al carrello</a></td>
+            </tr>
+            
             <tr>
                  <!--Prezzo prodotti-->
-                <td>10 Euro</td>
-                <td>7 Euro</td>
-                <td>40 Euro</td>
-                <td>15 Euro</td>
+                <th>Floppy Disk2</th>
+                <td class="img"><img title="floppy2" alt="foto di un floppy rosa" 
+                         src="img/sku_173335_3.jpg"
+                         width="100" height="100"></td>
+                <td>Floppy Rosa: rimanenze dall' 8/03, ora in SALDO!</td>
+                <td>Disponibili: 15</td>
                 <td>1 Euro</td>
+                <td><a class="bottone" href="cliente.html">Aggiungi al carrello</a></td>
             </tr>
-            <tr>
-                 <!--Sezione per comprare i prodotti-->
-                <td><a href="cliente.html">Aggiungi al carrello</a></td>
-                <td><a href="cliente.html">Aggiungi al carrello</a></td>
-                <td><a href="cliente.html">Aggiungi al carrello</a></td>
-                <td><a href="cliente.html">Aggiungi al carrello</a></td>
-                <td><a href="cliente.html">Aggiungi al carrello</a></td>
-            </tr>
+            
         </table>
+    </div>
     </body>
 </html>
