@@ -16,11 +16,23 @@ header {
     border-bottom: none;
 }
 
+/* proprietà titoli */
+
 h1{
     font-size: 200%;
-    font-weight: bold;
+    font-weight: bolder;
     margin-left: 5%;
 }
+
+h2 {
+    font-size: 150%;
+}
+
+h3 {
+    font-size: 130%;
+}
+
+/* Link navbar interni e esterni */
 
 a {
     text-decoration: none;
@@ -97,6 +109,8 @@ a {
     
 }
 
+/* Grafica sezioni sito */
+
 div{
     background-color: #F8F8F8 ;
     margin: 0.5% 0.5% 0.5% 0.5%;
@@ -109,6 +123,8 @@ div h3, p{
     padding: 0.5%;
     text-align: justify;
 }
+
+/* grafica form */
 
 form{
     display: inline-block;
@@ -165,6 +181,8 @@ textarea {
 .login p{
     text-align: center;  
     }
+    
+/* allineamento label+input */
 
 div.riga{
     display: table-row;
@@ -187,12 +205,15 @@ div.riga{
     
 }
 
+/* Proprietà tabella Cliente */
+
 #tabella {
     text-align: center;
 }
 
 table {
     display: inline;
+    border-collapse: collapse;
 }
 
 tr {
@@ -216,6 +237,7 @@ th {
 td {
     text-align: center;
     border-radius: 10px;
+    padding-left: 0.5%;
     
 }
 
@@ -223,7 +245,7 @@ td {
     min-width: 100px;
 }
 
-
+/* responsive layout */
 
 @media (min-width: 481px) {
     
